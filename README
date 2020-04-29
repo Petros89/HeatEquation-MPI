@@ -1,0 +1,20 @@
+#This file explains how to compile and execute the source and executable files of this folder
+
+#Type the following 6 steps in the command line of your terminal:
+
+1) module load gcc/5.4.0  #loads the GNU compiler for the gcc/5.4.0 version
+
+2) module load mpich/3.1 #loads the mpich/3.1 distribution
+
+3) make  #genarates all object files and compiles the source codes of all programs *.c
+
+4) mpirun -np <number of processors> ./<executable name>  <time to run (seconds)>   #starts the
+#parallel execution of the .exe file for an endTime of <time to run (seconds)> using <number of processors> processors
+
+5) make remove #removes all sub-domain meshes of each processor 
+
+6) make clean #removes every compiled object files and executables
+
+# use VI editor to open the output (.dat) file to see the results of the analytical and numerical solution.
+
+# make sure to locate the timer.h file in the same folder of your source and executable files 
