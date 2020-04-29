@@ -17,4 +17,4 @@
 
 # use VI editor to open the output (.dat) file to see the results of the analytical and numerical solution.
 
-# make sure to locate the timer.h file in the same folder of your source and executable files 
+# make sure to locate the timer.h file in the same folder of your source and executable files.
