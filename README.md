@@ -6,7 +6,7 @@
 - Execute: mpirun -np <number of processors> ./<executable name>  <time to run (seconds)>
   
 ## SpeedUp
-- Achieved SpeedUp ~x12 on 4 nodes - 12 processors each node. 
+- Achieved SpeedUp ~x11 on 4 nodes - 12 processors each node. 
 
 
 ## Results
